@@ -17,7 +17,7 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <h1>Taskify - Task Management Application</h1>
+      <h1>Tasky - Task Management Application</h1>
       <AddTaskForm onAddTask={addTask} />
       <TaskList tasks={tasks} onDeleteTask={deleteTask} />
     </div>
